@@ -1,0 +1,51 @@
+.newsletter__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newsletterShowing__button {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(40, 40, 252);
+    border: none;
+}
+
+.newsletterShowing__button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.newsletterForm {
+    display: flex;
+    width: 15rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.newsletterForm__input {
+    font-size: 0.8em;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.newsletterForm__buttonContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newsletterForm__submitButton {
+    background-color: rgb(40, 40, 252);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    border: none;
+    padding: 15px;
+    justify-self: center;
+}

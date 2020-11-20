@@ -1,0 +1,33 @@
+.countries__container {
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    padding: 0 1.8rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+}
+
+.country {
+    background-color: rgb(58, 57, 57);
+    height: 10rem;
+    width: 93%;
+    margin: 0 auto 10rem auto;
+    padding: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.country__title {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.country__photo {
+    margin-top: 2.3rem;
+    align-self: center;
+    width: calc(0.25rem * 64);
+    height: calc(0.25rem * 42.7);
+}
