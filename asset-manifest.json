@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Travel_Guide_Landing_Page/static/css/main.cf4fd77e.chunk.css",
+    "main.js": "/Travel_Guide_Landing_Page/static/js/main.39803526.chunk.js",
+    "main.js.map": "/Travel_Guide_Landing_Page/static/js/main.39803526.chunk.js.map",
+    "runtime-main.js": "/Travel_Guide_Landing_Page/static/js/runtime-main.f284f26a.js",
+    "runtime-main.js.map": "/Travel_Guide_Landing_Page/static/js/runtime-main.f284f26a.js.map",
+    "static/js/2.45024238.chunk.js": "/Travel_Guide_Landing_Page/static/js/2.45024238.chunk.js",
+    "static/js/2.45024238.chunk.js.map": "/Travel_Guide_Landing_Page/static/js/2.45024238.chunk.js.map",
+    "index.html": "/Travel_Guide_Landing_Page/index.html",
+    "static/css/main.cf4fd77e.chunk.css.map": "/Travel_Guide_Landing_Page/static/css/main.cf4fd77e.chunk.css.map",
+    "static/js/2.45024238.chunk.js.LICENSE.txt": "/Travel_Guide_Landing_Page/static/js/2.45024238.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Travel_Guide_Landing_Page/static/media/bg_img_640.ba665771.jpg",
+    "static/media/iceland.13e14f58.jpg": "/Travel_Guide_Landing_Page/static/media/iceland.13e14f58.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f284f26a.js",
+    "static/js/2.45024238.chunk.js",
+    "static/css/main.cf4fd77e.chunk.css",
+    "static/js/main.39803526.chunk.js"
+  ]
+}
