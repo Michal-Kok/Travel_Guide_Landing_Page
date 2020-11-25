@@ -6,9 +6,15 @@
 }
 
 .title__container__description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .title__container__title {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
+}
+
+@media (orientation: landscape) and (min-height: 550px) {
+    .title__container__title {
+        font-size: 5rem;
+    }
 }

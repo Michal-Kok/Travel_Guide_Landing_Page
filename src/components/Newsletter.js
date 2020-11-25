@@ -19,7 +19,7 @@ const Newsletter = () => {
                 </Route>
                 < Route path="/">
                     <button onClick={handleClick} className="newsletterShowing__button welcomeAnimation">
-                        <Link to="/signin">Sing In</Link>
+                        <Link to="/signin"><p>Sign In</p></Link>
                     </button>
                 </Route>
             </ Switch >

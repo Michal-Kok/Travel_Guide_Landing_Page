@@ -1,7 +1,7 @@
 .App {
     width: 100%;
     height: 100%;
-    background-image: url(../img/bg_img_640.jpg);
+    background-image: url(../img/bg_img_1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,12 +21,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
+
 }
 
 .title {
     margin-top: 17%;
-    margin-bottom: 7%;
+    margin-bottom: 0;
 }
 
 .newsletter {
@@ -35,11 +35,37 @@
 
 .countries {
     width: 100%;
-    margin-top: 13rem;
+    margin-top: 7rem;
 }
 
 footer {
-    flex-basis: 4rem;
+    flex-basis: 15rem;
     width: 100%;
     background-color: #222;
+}
+
+@media (orientation: landscape) and (min-height: 550px) {
+    .App {
+        background-image: url(../img/bg_img_1920.jpg);
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .page {
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+    .title {
+        margin-top: 7%;
+    }
+
+    .countries {
+        margin-top: 0;
+    }
+
+    footer {
+        margin: 0;
+        max-height: 5rem;
+    }
 }

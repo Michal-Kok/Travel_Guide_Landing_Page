@@ -23,18 +23,28 @@ const Countries = () => {
     ];
 
     useEffect(() => {
-        gsap.registerPlugin(scrollTrigger);
-        const elements = document.querySelectorAll('.country__container');
-        elements.forEach(element => {
-            gsap.to(element.children, {
-                height: '22rem', duration: 0.5, scrollTrigger: {
-                    trigger: element,
-                    start: '15% 50%%',
-                    markers: true,
 
-                }
+        if (window.screen.orientation.type == ! "landscape-primary" || window.innerWidth < 600) {
+            gsap.registerPlugin(scrollTrigger);
+            const elements = document.querySelectorAll('.country__container');
+            const images = document.querySelectorAll('.country__photo');
+
+            elements.forEach((element, index) => {
+                gsap.from(images[index], {
+                    display: 'none', opacity: 0, duration: 0.5, delay: 0.4, scrollTrigger: {
+                        trigger: element,
+                        start: '15% 50%'
+                    }
+                });
+
+                gsap.to(element.children, {
+                    height: '100%', duration: 0.5, scrollTrigger: {
+                        trigger: element,
+                        start: '15% 50%',
+                    }
+                });
             });
-        });
+        }
     });
 
     const countriesTable = countriesInformation.map((country, index) => (

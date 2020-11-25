@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    height: 8rem;
 }
 
 .newsletterShowing__button {
@@ -13,6 +14,12 @@
 }
 
 .newsletterShowing__button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.newsletterShowing__button a p {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -27,6 +34,7 @@
 }
 
 .newsletterForm__input {
+    display: block;
     font-size: 0.8em;
     padding: 10px;
     margin-bottom: 1.5rem;
@@ -48,4 +56,32 @@
     border: none;
     padding: 15px;
     justify-self: center;
+}
+
+@media (orientation: landscape) and (min-height: 550px) {
+    .newsletterForm {
+        width: 50rem;
+    }
+
+    .newsletterForm__form {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .newsletterForm__buttonContainer {
+        width: auto;
+        height: auto;
+    }
+
+    .newsletterForm__submitButton {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+    }
+
+    .newsletterForm__input {
+        width: 35%;
+        margin: 0;
+    }
+
 }

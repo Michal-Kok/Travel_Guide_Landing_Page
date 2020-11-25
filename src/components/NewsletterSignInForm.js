@@ -13,7 +13,7 @@ const NewsletterSignInForm = () => {
 
     return (
         <div className="newsletterForm">
-            <form action="submit">
+            <form className="newsletterForm__form" action="submit">
                 <input className="newsletterForm__input"
                     type="text"
                     placeholder="ENTER YOUR NAME" />
