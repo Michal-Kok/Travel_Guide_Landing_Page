@@ -24,12 +24,14 @@ const Countries = () => {
 
     useEffect(() => {
         gsap.registerPlugin(scrollTrigger);
-        const elements = document.querySelectorAll('.country');
+        const elements = document.querySelectorAll('.country__container');
         elements.forEach(element => {
-            gsap.to(element, {
+            gsap.to(element.children, {
                 height: '22rem', duration: 0.5, scrollTrigger: {
                     trigger: element,
-                    start: '13% 65%',
+                    start: '15% 50%%',
+                    markers: true,
+
                 }
             });
         });

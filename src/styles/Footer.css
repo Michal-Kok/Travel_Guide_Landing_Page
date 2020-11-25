@@ -1,0 +1,26 @@
+.footer__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: rgb(163, 163, 158);
+    font-size: .8rem;
+}
+
+.footer__madeByMe {
+    margin-left: 10%;
+}
+
+.footer__link {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__link__SVGContainer {
+    width: 18%;
+    height: 18%;
+    padding: 4%;
+}

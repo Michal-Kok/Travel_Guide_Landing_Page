@@ -5,8 +5,14 @@
     padding: 0 1.8rem;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 8rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;
+}
+
+.country__container {
+    height: 22rem;
+    background-color: transparent;
+    overflow: hidden;
 }
 
 .country {
