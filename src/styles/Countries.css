@@ -50,6 +50,7 @@
         flex-direction: row;
         margin: 0;
         height: 10rem;
+        padding: 0 3rem;
     }
 
     .country__photo {
@@ -59,8 +60,14 @@
         margin-top: 2rem;
     }
 
+    .country__container {
+        flex-basis: 21.5rem;
+    }
+
     .country {
         cursor: pointer;
+        margin: 0;
+        width: 100%;
     }
 
     .country__container:hover {
@@ -69,7 +76,7 @@
 
     .country__container:hover .country {
         height: 10rem;
-        width: 22rem;
+        width: 21.5rem;
         position: absolute;
         animation: countriesAnimation .5s ease-out both;
     }

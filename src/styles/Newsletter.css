@@ -6,24 +6,26 @@
     height: 8rem;
 }
 
-.newsletterShowing__button {
+.newsletter__biggerButton {
     width: 100%;
     height: 4rem;
     background-color: rgb(40, 40, 252);
     border: none;
 }
 
-.newsletterShowing__button a {
+.newsletter__biggerButton a {
     width: 100%;
     height: 100%;
     text-decoration: none;
 }
 
-.newsletterShowing__button a p {
+.newsletter__biggerButton a p {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    text-transform: capitalize;
 }
+
 
 .newsletterForm {
     display: flex;
